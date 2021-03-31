@@ -15,6 +15,7 @@
 
 ### Sisukord
 - [Andmebaas](#andmebaas)
+- [Kasutajad](#kasutajad)
 
 <hr>
 
@@ -47,7 +48,7 @@ Tabel: Goods
 Hetkel on rakendusel 3 kasutajat:
 | Kasutajanimi | Salasõna | Roll | Tegevus |
 |-|-|-|-|
-| admin | admin | Saab kasutajaid lisada/muuta/kustutada |
+| admin | admin | administraator | Saab kasutajaid lisada/muuta/kustutada |
 | Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
 | Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
 
