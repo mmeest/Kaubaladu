@@ -9,7 +9,7 @@
 
 <hr>
 
-<h2>Responsive esileht</h2>
+<h4>Responsive esileht</h4>
 <p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="450px"></p>
 
 <hr>
