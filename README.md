@@ -9,7 +9,7 @@
 
 <hr>
 
-<p align="center"><img src="/Pic/screenshot.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="300px"></p>
 
 <hr>
 
@@ -17,7 +17,7 @@
 - [Andmebaas](#andmebaas)
 - [Kasutajad](#kasutajad)
 - [Kasutajaõigused](#kasutajaõigused)
-- [Nupurida](#nupurida)
+- [Menüüriba](#menüüriba)
 
 <hr>
 
@@ -82,20 +82,20 @@ Vastavalt sellele kas sisse on loginud tavakasutaja või administraator omatakse
 
 <hr>
 
-### Nupurida
+### Menüüriba
 Menüüriba ehk nupurida on erinev vastavalt kasutajale/sisselogimisele
 
-<p align="center"><img src="Kaubaladu/Pic/menu.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menu.png" width="300px"></p>
 
 Kui kasutaja pole sisse loginud, siis kuvatakse menüüribal: 
 * Rakenduse nime('Kaubaladu') / Registreeri(link) / Logi sisse(link)
 
-<p align="center"><img src="Kaubaladu/Pic/menuUser.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menuUser.png" width="300px"></p>
 
 Kui sisse on loginud tavakasutaja, siis kuvatakse menüüribal: 
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Lisa toode(link) / Kasutaja - {kasutajanimi} / Logi välja(link)
 
-<p align="center"><img src="Kaubaladu/Pic/menuAdmin.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="300px"></p>
 
 Kui sisse on loginud administraator, siis kuvatakse menüüribal:
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Kasutajanimekiri(link) / Statistika(link) / Kasutaja - admin / Logi välja(link)
