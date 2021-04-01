@@ -18,6 +18,7 @@
 - [Kasutajad](#kasutajad)
 - [Kasutajaõigused](#kasutajaõigused)
 - [Menüüriba](#menüüriba)
+- [Ajakulu](#ajakulu)
 - [Vaated](#vaated)
 
 <hr>
@@ -103,6 +104,11 @@ Kui sisse on loginud tavakasutaja, siis kuvatakse menüüribal:
 Kui sisse on loginud administraator, siis kuvatakse menüüribal:
 <p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="550px"></p>
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Kasutajanimekiri(link) / Statistika(link) / Kasutaja - admin / Logi välja(link)
+
+<hr>
+
+### Ajakulu
+Ajakulu ca. 12 h
 
 <hr>
 
