@@ -1,4 +1,4 @@
-<p align="center"><img src="kl.png" width="300px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34022590/113285347-87eb8700-92f3-11eb-8a7a-51344c4d7c12.png" width="300px"></p>
 
 <h1 align="center">
     <strong>Kaubaladu</strong>
