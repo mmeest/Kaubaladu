@@ -105,60 +105,60 @@ Kui sisse on loginud administraator, siis kuvatakse menüüribal:
 
 ### Vaated
 
-<p align="center"><img src="/Kaubaladu/Pic/register.png" width="450px"></p>
 <h3 align="center">
     <p>Kasutajaks registreerimise lehekülg</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/register.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/login.png" width="450px"></p>
 <h3 align="center">
     <p>Kasutaja sisselogimise lehekülg</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/login.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/userList.png" width="450px"></p>
 <h3 align="center">
     <p>Tavakasutaja toote nimekirjavaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/userList.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/userCreate.png" width="450px"></p>
 <h3 align="center">
     <p>Tavakasutaja uue toote lisamine</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/userCreate.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/userEdit.png" width="450px"></p>
 <h3 align="center">
     <p>Tavakasutaja toote muutmise vaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/userEdit.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/userDetail.png" width="450px"></p>
 <h3 align="center">
     <p>Tavakasutaja toote detailvaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/userDetail.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/userDelete.png" width="450px"></p>
 <h3 align="center">
     <p>Tavakasutaja toote kustutamine</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/userDelete.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/adminList.png" width="450px"></p>
 <h3 align="center">
     <p>Administraatori nimekirjavaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminList.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/adminSearch.png" width="450px"></p>
 <h3 align="center">
     <p>Administraatori otsinguvaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminSearch.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/adminStat.png" width="450px"></p>
 <h3 align="center">
     <p>Administraatori statistikavaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminStat.png" width="450px"></p>
 
-<p align="center"><img src="/Kaubaladu/Pic/adminUserlist.png" width="450px"></p>
 <h3 align="center">
     <p>Administraatori kasutajanimekirja vaade</p>
 </h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminUserlist.png" width="450px"></p>
 
 <hr>
 
