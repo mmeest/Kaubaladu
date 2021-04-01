@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Kaubaladu;
@@ -15,11 +16,65 @@ namespace Kaubaladu.Controllers
     {
         private KaubaladuEntities db = new KaubaladuEntities();
 
+
         // GET: Goods
-        public ActionResult Index()
-        {
-            return View(db.Goods.ToList());
+        public ActionResult Index(string name, string serial, string cathegory, string origin, string owner)
+        {            
+            if(User.Identity.Name == "admin")
+            {
+                //if (name != null)
+                if (!String.IsNullOrEmpty(name))
+                {
+                    var query = from Good in db.Goods
+                            where Good.Name == name
+                            select Good;
+                    return View(query.ToList());
+                }
+                //else if (serial != null)
+                else if(!String.IsNullOrEmpty(serial))
+                {
+                    var query = from Good in db.Goods
+                                where Good.Serial == serial
+                                select Good;
+                    return View(query.ToList());
+                }
+                else if (!String.IsNullOrEmpty(cathegory))
+                {
+                    var query = from Good in db.Goods
+                                where Good.Cathegory == cathegory
+                                select Good;
+                    return View(query.ToList());
+                }
+                else if (!String.IsNullOrEmpty(origin))
+                {
+                    var query = from Good in db.Goods
+                                where Good.Origin == origin
+                                select Good;
+                    return View(query.ToList());
+                }
+                else if (!String.IsNullOrEmpty(owner))
+                {
+                    var query = from Good in db.Goods
+                                where Good.Owner == owner
+                                select Good;
+                    return View(query.ToList());
+                }
+                else
+                {
+                    var query = from Good in db.Goods
+                                select Good;
+                    return View(query.ToList());
+                }
+            }
+            else
+            {
+                var query = from Good in db.Goods
+                            where Good.Owner == User.Identity.Name
+                            select Good;
+                return View(query.ToList());
+            }
         }
+
 
         // GET: Goods/Details/5
         public ActionResult Details(int? id)

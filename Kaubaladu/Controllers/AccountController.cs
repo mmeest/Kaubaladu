@@ -23,16 +23,19 @@ namespace Kaubaladu.Controllers
                 bool isValid = context.Users.Any(x => x.Username == model.Username && x.Password == model.Password);
                 if(isValid)
                 {
-                    if(model.Username == "admin")
-                    {
-                        FormsAuthentication.SetAuthCookie(model.Username, false);
-                        return RedirectToAction("Index", "Users");
-                    }
-                    else
-                    {
-                        FormsAuthentication.SetAuthCookie(model.Username, false);
-                        return RedirectToAction("Index", "Goods");
-                    }
+                    FormsAuthentication.SetAuthCookie(model.Username, false);
+                    return RedirectToAction("Index", "Goods");
+
+                    //if (model.Username == "admin")
+                    //{
+                    //    FormsAuthentication.SetAuthCookie(model.Username, false);
+                    //    return RedirectToAction("Index", "Users");
+                    //}
+                    //else
+                    //{
+                    //    FormsAuthentication.SetAuthCookie(model.Username, false);
+                    //    return RedirectToAction("Index", "Goods");
+                    //}
                 }
 
                 ModelState.AddModelError("","Invalid username and password");

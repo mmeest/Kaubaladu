@@ -7,69 +7,103 @@
 <h2>Tootenimekiri</h2>
 
 <p>
-    @Html.ActionLink("Lisa uus toode", "Create")
+    @if(User.Identity.Name != "admin"){ @Html.ActionLink("Lisa uus toode", "Create") }
 </p>
+@if(User.Identity.Name == "admin")
+            {
+                using (Html.BeginForm("Index", "Goods", FormMethod.Get))
+                {
+                    @Html.TextBox("name", null, new { placeholder="Nimetus"})
+                    @Html.TextBox("serial", null, new { placeholder="Seerianumber"})
+                    @Html.TextBox("cathegory", null, new { placeholder = "Kategooria" })
+                    @Html.TextBox("origin", null, new { placeholder = "Päritolumaa" })
+                    @Html.TextBox("owner", null, new { placeholder = "Omanik" })
+                <p>
+                    <input type="submit" value="Otsi" />
+                </p>
+                }
+            }
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Image)
+            Pilt 
+            @*@Html.DisplayNameFor(model => model.Image)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            Nimetus
+            @*@Html.DisplayNameFor(model => model.Name)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Serial)
+            Seerianumber 
+            @*@Html.DisplayNameFor(model => model.Serial)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Cathegory)
+            Kategooria 
+            @*@Html.DisplayNameFor(model => model.Cathegory)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Origin)
+            Päritolumaa 
+            @*@Html.DisplayNameFor(model => model.Origin)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Unit)
+            Ühik 
+            @*@Html.DisplayNameFor(model => model.Unit)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Amount)
+            Kogus 
+            @*@Html.DisplayNameFor(model => model.Amount)*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Owner)
+            Omanik 
+            @*@Html.DisplayNameFor(model => model.Owner)*@
         </th>
         <th></th>
     </tr>
-
-@foreach (var item in Model) {
+    @*@if(Model.Count() == 0)
+{
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Image)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Serial)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Cathegory)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Origin)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Unit)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Amount)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Owner)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        <td colspan="3" style="color:red">
+            Vastuseid ei leitud
         </td>
     </tr>
 }
+else
+{*@
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+                @*<img src="@Url.Content(@model.Image)" alt="Image" height="25px"*@/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cathegory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Origin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner)
+            </td>
+            <td>
+                @if (User.Identity.Name != "admin")
+                { @Html.ActionLink("Muuda", "Edit", new { id = item.Id }) }  |
+                @Html.ActionLink("Detailid", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Kustuta", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+@*}*@
 
 </table>

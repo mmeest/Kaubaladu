@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Kaubaladu.User>
+
+@{
+    ViewBag.Title = "Statistika";
+}
+
+<h2>Statistika</h2>
+
+<p>
+    
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Kasutaja
+        </th>
+        <th>
+            Sissekannete arv
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                XXX
+            </td>
+            <td>
+            </td>
+        </tr>
+    }
+
+</table>

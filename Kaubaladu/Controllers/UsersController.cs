@@ -20,6 +20,14 @@ namespace Kaubaladu.Controllers
             return View(db.Users.ToList());
         }
 
+        [Authorize]
+        public ActionResult Stat()
+        {
+            var query = from User in db.Users
+                        select User;
+            return View(query.ToList());
+        }
+
         // GET: Users/Details/5
         public ActionResult Details(int? id)
         {

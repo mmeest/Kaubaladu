@@ -31,7 +31,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    @if (User.Identity.IsAuthenticated)
+                    @if (User.Identity.IsAuthenticated && User.Identity.Name == "admin")
+                    {
+                        <li>@Html.ActionLink("Tootenimekiri", "Index", "Goods")</li>
+                        <li>@Html.ActionLink("Kasutajanimekiri", "Index", "Users")</li>
+                        <li>@Html.ActionLink("Statistika", "Stat", "Users")</li>
+                        <li><a>Kasutaja - @User.Identity.Name</a></li>
+                        <li>@Html.ActionLink("Logi välja", "Logout", "Account")</li>
+                    }
+                    else if (User.Identity.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Tootenimekiri", "Index", "Goods")</li>
                         <li>@Html.ActionLink("Lisa toode", "Create", "Goods")</li>

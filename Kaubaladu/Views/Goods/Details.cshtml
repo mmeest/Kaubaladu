@@ -4,14 +4,15 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Detailid</h2>
 
 <div>
-    <h4>Good</h4>
+    <h4>Toode</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Image)
+            Pilt
+            @*@Html.DisplayNameFor(model => model.Image)*@
         </dt>
 
         <dd>
@@ -19,7 +20,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
+            Nimetus
+            @*@Html.DisplayNameFor(model => model.Name)*@
         </dt>
 
         <dd>
@@ -27,7 +29,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Serial)
+            Seerianumber
+            @*@Html.DisplayNameFor(model => model.Serial)*@
         </dt>
 
         <dd>
@@ -35,7 +38,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Cathegory)
+            Kategooria
+            @*@Html.DisplayNameFor(model => model.Cathegory)*@
         </dt>
 
         <dd>
@@ -43,7 +47,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Origin)
+            Päritolumaa
+            @*@Html.DisplayNameFor(model => model.Origin)*@
         </dt>
 
         <dd>
@@ -51,7 +56,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Unit)
+            Ühik
+            @*@Html.DisplayNameFor(model => model.Unit)*@
         </dt>
 
         <dd>
@@ -59,7 +65,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Amount)
+            Kogus
+            @*@Html.DisplayNameFor(model => model.Amount)*@
         </dt>
 
         <dd>
@@ -67,7 +74,8 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Owner)
+            Omanik
+            @*@Html.DisplayNameFor(model => model.Owner)*@
         </dt>
 
         <dd>
@@ -77,6 +85,7 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @if (User.Identity.Name != "admin")
+    { @Html.ActionLink("Muuda", "Edit", new { id = Model.Id }) } |
+    @Html.ActionLink("Tagasi nimekirja", "Index")
 </p>
