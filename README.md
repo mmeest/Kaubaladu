@@ -9,7 +9,7 @@
 
 <hr>
 
-<p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="450px"></p>
 
 <hr>
 
@@ -18,6 +18,7 @@
 - [Kasutajad](#kasutajad)
 - [Kasutajaõigused](#kasutajaõigused)
 - [Menüüriba](#menüüriba)
+- [Vaated](#vaated)
 
 <hr>
 
@@ -85,19 +86,27 @@ Vastavalt sellele kas sisse on loginud tavakasutaja või administraator omatakse
 ### Menüüriba
 Menüüriba ehk nupurida on erinev vastavalt kasutajale/sisselogimisele
 
-<p align="center"><img src="/Kaubaladu/Pic/menu.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menu.png" width="450px"></p>
 
 Kui kasutaja pole sisse loginud, siis kuvatakse menüüribal: 
 * Rakenduse nime('Kaubaladu') / Registreeri(link) / Logi sisse(link)
 
-<p align="center"><img src="/Kaubaladu/Pic/menuUser.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menuUser.png" width="450px"></p>
 
 Kui sisse on loginud tavakasutaja, siis kuvatakse menüüribal: 
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Lisa toode(link) / Kasutaja - {kasutajanimi} / Logi välja(link)
 
-<p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="300px"></p>
+<p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="450px"></p>
 
 Kui sisse on loginud administraator, siis kuvatakse menüüribal:
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Kasutajanimekiri(link) / Statistika(link) / Kasutaja - admin / Logi välja(link)
 
 <hr>
+
+### Vaated
+
+<p align="center"><img src="/Kaubaladu/Pic/register.png" width="450px"></p>
+<p align="center"><h3>Kasutajaks registreerimise lehekülg</h3></p><br><br>
+
+<p align="center"><img src="/Kaubaladu/Pic/login.png" width="450px"></p>
+<p align="center"><h3>Kasutaja sisselogimise lehekülg</h3></p><br><br>
