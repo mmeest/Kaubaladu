@@ -60,7 +60,7 @@ Hetkel on rakendusel 3 kasutajat:
 |-|-|-|-|
 | admin | admin | administraator | Saab kasutajaid lisada/muuta/kustutada |
 | Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
-| Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
+| Jane | jjj | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
 
 * Rakenduses saavad ka uued kasutajad end registreerida
 
