@@ -18,6 +18,7 @@
 - [Andmebaas](#andmebaas)
 - [Kasutajad](#kasutajad)
 - [Kasutajaõigused](#kasutajaõigused)
+- [Otsing](#otsing)
 - [Menüüriba](#menüüriba)
 - [Ajakulu](#ajakulu)
 - [Vaated](#vaated)
@@ -84,6 +85,11 @@ Vastavalt sellele kas sisse on loginud tavakasutaja või administraator omatakse
 | Saab kasutajaid muuta | - | ✓ |
 | Saab kasutajaid kustutada | - | ✓ |
 | Näeb toodete statistikat | - | ✓ |
+
+<hr>
+
+### Otsing
+Administraator saab otsida vastavate väärtuste alusel: Nimetus; Seerianumber; Kategooria; Päritolumaa; Omanik;
 
 <hr>
 
