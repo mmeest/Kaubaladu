@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -15,7 +16,6 @@ namespace Kaubaladu.Controllers
     public class GoodsController : Controller
     {
         private KaubaladuEntities db = new KaubaladuEntities();
-
 
         // GET: Goods
         public ActionResult Index(string name, string serial, string cathegory, string origin, string owner)
@@ -102,10 +102,19 @@ namespace Kaubaladu.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Image,Name,Serial,Cathegory,Origin,Unit,Amount,Owner")] Good good)
+        public ActionResult Create([Bind(Include = "Id,Img,FileName,Name,Serial,Cathegory,Origin,Unit,Amount,Owner")] Good good, HttpPostedFileBase file)
         {
-            if (ModelState.IsValid)
+            // HttpPostedFileBase fileUpload = Request.Files["file"] as HttpPostedFileBase;
+
+            if (ModelState.IsValid)            
             {
+                string fileName = Path.GetFileNameWithoutExtension(file.FileName);          // failinimi
+                string extension = Path.GetExtension(file.FileName);                        // faili laiend
+                fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;       // lisatakse kellaaeg
+                good.Img = "../Images/" + fileName;                                         // andmebaas
+                fileName = Path.Combine(Server.MapPath("../Images/"), fileName);
+                file.SaveAs(fileName);
+
                 db.Goods.Add(good);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -127,6 +136,7 @@ namespace Kaubaladu.Controllers
                 return HttpNotFound();
             }
             return View(good);
+
         }
 
         // POST: Goods/Edit/5
@@ -134,7 +144,7 @@ namespace Kaubaladu.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Image,Name,Serial,Cathegory,Origin,Unit,Amount,Owner")] Good good)
+        public ActionResult Edit([Bind(Include = "Id,Name,Serial,Cathegory,Origin,Unit,Amount,Owner,Img")] Good good)
         {
             if (ModelState.IsValid)
             {
@@ -179,5 +189,6 @@ namespace Kaubaladu.Controllers
             }
             base.Dispose(disposing);
         }
+
     }
 }

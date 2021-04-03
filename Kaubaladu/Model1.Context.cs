@@ -27,7 +27,5 @@ namespace Kaubaladu
     
         public virtual DbSet<Good> Goods { get; set; }
         public virtual DbSet<User> Users { get; set; }
-
-        public System.Data.Entity.DbSet<Kaubaladu.Models.Membership> Memberships { get; set; }
     }
 }

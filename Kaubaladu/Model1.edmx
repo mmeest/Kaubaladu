@@ -18,6 +18,7 @@
           <Property Name="Unit" Type="varchar" MaxLength="20" />
           <Property Name="Amount" Type="decimal" Precision="18" Scale="3" />
           <Property Name="Owner" Type="varchar" MaxLength="50" />
+          <Property Name="Img" Type="varchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -48,6 +49,7 @@
           <Property Name="Unit" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="Amount" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Img" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -70,6 +72,7 @@
           <EntitySetMapping Name="Goods">
             <EntityTypeMapping TypeName="KaubaladuModel.Good">
               <MappingFragment StoreEntitySet="Goods">
+                <ScalarProperty Name="Img" ColumnName="Img" />
                 <ScalarProperty Name="Owner" ColumnName="Owner" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Image" ColumnName="Image" />

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KaubaladuModelStoreContainer" CdmEntityContainer="KaubaladuEntities">
+    <EntitySetMapping Name="Goods">
+      <EntityTypeMapping TypeName="KaubaladuModel.Good">
+        <MappingFragment StoreEntitySet="Goods">
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Cathegory" ColumnName="Cathegory" />
+          <ScalarProperty Name="Origin" ColumnName="Origin" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="KaubaladuModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

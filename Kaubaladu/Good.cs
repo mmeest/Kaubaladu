@@ -6,6 +6,7 @@
 //     Manual changes to this file will be overwritten if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System.Web;
 
 namespace Kaubaladu
 {
@@ -23,5 +24,6 @@ namespace Kaubaladu
         public string Unit { get; set; }
         public Nullable<decimal> Amount { get; set; }
         public string Owner { get; set; }
+        public string Img { get; set; }
     }
 }

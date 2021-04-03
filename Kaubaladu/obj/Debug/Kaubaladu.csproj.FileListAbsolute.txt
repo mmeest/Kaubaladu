@@ -1,0 +1,166 @@
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Kaubaladu.dll.config
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Kaubaladu.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Kaubaladu.pdb
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csc.exe
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csc.exe.config
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csc.rsp
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csi.exe
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csi.exe.config
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\csi.rsp
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.AppContext.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Console.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.IO.Compression.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Net.Http.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Net.Sockets.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.ValueTuple.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\vbc.exe
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\vbc.exe.config
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\vbc.rsp
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\VBCSCompiler.exe
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Antlr3.Runtime.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Newtonsoft.Json.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Helpers.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Mvc.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Optimization.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Razor.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.Razor.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\WebGrease.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Helpers.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Mvc.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Optimization.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.Razor.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\System.Web.WebPages.Razor.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Newtonsoft.Json.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Antlr3.Runtime.pdb
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\obj\Debug\Kaubaladu.csproj.CoreCompileInputs.cache
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\obj\Debug\Kaubaladu.csproj.CopyComplete
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\obj\Debug\Kaubaladu.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\obj\Debug\Kaubaladu.pdb
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\EntityFramework.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\EntityFramework.SqlServer.dll
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\EntityFramework.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\bin\EntityFramework.SqlServer.xml
+C:\Users\swim\source\repos\Kaubaladu\Kaubaladu\obj\Debug\Kaubaladu.csprojAssemblyReference.cache
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Kaubaladu.dll.config
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Kaubaladu.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Kaubaladu.pdb
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csc.exe
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csc.exe.config
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csc.rsp
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csi.exe
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csi.exe.config
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\csi.rsp
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.AppContext.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Console.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.IO.Compression.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Net.Http.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Net.Sockets.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.ValueTuple.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\vbc.exe
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\vbc.exe.config
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\vbc.rsp
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\VBCSCompiler.exe
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Antlr3.Runtime.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\EntityFramework.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\EntityFramework.SqlServer.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Newtonsoft.Json.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Helpers.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Mvc.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Optimization.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Razor.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.Razor.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\WebGrease.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\EntityFramework.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\EntityFramework.SqlServer.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Helpers.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Mvc.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Optimization.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.Razor.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\System.Web.WebPages.Razor.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Newtonsoft.Json.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Antlr3.Runtime.pdb
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\obj\Debug\Kaubaladu.csprojAssemblyReference.cache
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\obj\Debug\Kaubaladu.csproj.CoreCompileInputs.cache
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\obj\Debug\Kaubaladu.csproj.CopyComplete
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\obj\Debug\Kaubaladu.dll
+C:\Users\swim\source\repos\Kaubaladu old\Kaubaladu\obj\Debug\Kaubaladu.pdb

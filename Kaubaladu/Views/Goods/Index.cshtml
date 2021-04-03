@@ -72,8 +72,10 @@ else
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Image)
-                @*<img src="@Url.Content(@model.Image)" alt="Image" height="25px"*@/>
+                <img src="@Html.DisplayFor(modelItem => item.Img)" width="50" height="50px">
+                @*@Html.DisplayFor(modelItem => item.Img)
+                @Html.DisplayFor(modelItem => item.Image)*@
+                @*<img src="@Url.Content(@model.Image)" alt="Image" height="25px"/>*@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
