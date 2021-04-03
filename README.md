@@ -25,6 +25,8 @@
 <hr>
 
 ### Andmebaas
+Andmebaas on salvestatud kataloogi 'DB'
+
 Andmebaasi 'Connectionstring' failis 'Web.config'
 ```
 <add name="KaubaladuEntities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-JVV34R1\SQLEXPRESS02;initial catalog=Kaubaladu;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
