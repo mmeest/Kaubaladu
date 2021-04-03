@@ -1,4 +1,4 @@
-<p align="center"><img src="kl.png" width="300px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34022590/113285347-87eb8700-92f3-11eb-8a7a-51344c4d7c12.png" width="300px"></p>
 
 <h1 align="center">
     <strong>Kaubaladu</strong>
@@ -9,7 +9,8 @@
 
 <hr>
 
-<p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="300px"></p>
+<h4>Responsive esileht</h4>
+<p align="center"><img src="/Kaubaladu/Pic/screenshot.png" width="450px"></p>
 
 <hr>
 
@@ -18,6 +19,8 @@
 - [Kasutajad](#kasutajad)
 - [Kasutajaõigused](#kasutajaõigused)
 - [Menüüriba](#menüüriba)
+- [Ajakulu](#ajakulu)
+- [Vaated](#vaated)
 
 <hr>
 
@@ -58,7 +61,7 @@ Hetkel on rakendusel 3 kasutajat:
 |-|-|-|-|
 | admin | admin | administraator | Saab kasutajaid lisada/muuta/kustutada |
 | Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
-| Martin | mmm | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
+| Jane | jjj | tavakasutaja | Näeb enda poolt andmebaasi lisatud tooteid, saab neid muuta ja kustutada |
 
 * Rakenduses saavad ka uued kasutajad end registreerida
 
@@ -85,19 +88,88 @@ Vastavalt sellele kas sisse on loginud tavakasutaja või administraator omatakse
 ### Menüüriba
 Menüüriba ehk nupurida on erinev vastavalt kasutajale/sisselogimisele
 
-<p align="center"><img src="/Kaubaladu/Pic/menu.png" width="300px"></p>
+
 
 Kui kasutaja pole sisse loginud, siis kuvatakse menüüribal: 
+<p align="center"><img src="/Kaubaladu/Pic/menu.png" width="550px"></p>
 * Rakenduse nime('Kaubaladu') / Registreeri(link) / Logi sisse(link)
 
-<p align="center"><img src="/Kaubaladu/Pic/menuUser.png" width="300px"></p>
+
 
 Kui sisse on loginud tavakasutaja, siis kuvatakse menüüribal: 
+<p align="center"><img src="/Kaubaladu/Pic/menuUser.png" width="550px"></p>
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Lisa toode(link) / Kasutaja - {kasutajanimi} / Logi välja(link)
 
-<p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="300px"></p>
+
 
 Kui sisse on loginud administraator, siis kuvatakse menüüribal:
+<p align="center"><img src="/Kaubaladu/Pic/menuAdmin.png" width="550px"></p>
 * Rakenduse nime('Kaubaladu') / Tootenimekiri(link) / Kasutajanimekiri(link) / Statistika(link) / Kasutaja - admin / Logi välja(link)
 
 <hr>
+
+### Ajakulu
+Ajakulu ca. 12 h
+
+<hr>
+
+### Vaated
+
+<h3 align="center">
+    <p>Kasutajaks registreerimise lehekülg</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/register.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Kasutaja sisselogimise lehekülg</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/login.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Tavakasutaja toote nimekirjavaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/userList.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Tavakasutaja uue toote lisamine</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/userCreate.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Tavakasutaja toote muutmise vaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/userEdit.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Tavakasutaja toote detailvaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/userDetail.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Tavakasutaja toote kustutamine</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/userDelete.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Administraatori nimekirjavaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminList.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Administraatori otsinguvaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminSearch.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Administraatori statistikavaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminStat.png" width="450px"></p>
+
+<h3 align="center">
+    <p>Administraatori kasutajanimekirja vaade</p>
+</h3>
+<p align="center"><img src="/Kaubaladu/Pic/adminUserlist.png" width="450px"></p>
+
+<hr>
+
+## HAPPY CODING !!! :)
