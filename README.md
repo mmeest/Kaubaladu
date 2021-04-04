@@ -21,6 +21,7 @@
 - [Otsing](#otsing)
 - [Menüüriba](#menüüriba)
 - [Ajakulu](#ajakulu)
+- [Testitud](#testitud)
 - [Vaated](#vaated)
 
 <hr>
