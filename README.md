@@ -33,7 +33,7 @@ Andmebaasi 'Connectionstring' failis 'Web.config'
 <add name="KaubaladuEntities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-JVV34R1\SQLEXPRESS02;initial catalog=Kaubaladu;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
 ```
 
-## NB! Antud rakenduses on andmebaasi server: 'DESKTOP-JVV34R1\SQLEXPRESS02' 
+## NB! Rakenduse SQL server: 'DESKTOP-JVV34R1\SQLEXPRESS02' tuleb vahetada kasutatava serveri vastu.
 
 Andmebaas: Kaubaladu
 
@@ -117,7 +117,14 @@ Kui sisse on loginud administraator, siis kuvatakse menüüribal:
 <hr>
 
 ### Ajakulu
-Ajakulu ca. 12 h
+Ajakulu ca. 16 h
+
+<hr>
+
+### Testitud
+Projekti .NET versioon: .NET Framework 4.7.2
+
+Rakendus on Githubist ka alla laetud ja edukalt testitud teises arvutis: .NET Framework 4.6.1
 
 <hr>
 
